@@ -1,0 +1,62 @@
+.save-date-container {
+    background-image: url("./images/background.png");
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.save-date {
+    padding: 0 40px 40px;
+}
+
+.save-date-names {
+    padding: 30px 0;
+    line-height: 70px;
+}
+
+
+.save-date-names h1 {
+    font-family: var(--great-vibes);
+    font-size: 44px;
+    color: var(--dark-olive);
+}
+
+
+
+.save-date-text {
+    font-size: 18px;
+    font-family: var(--yaldevi);
+    color: var(--dark-olive);
+    letter-spacing: 4px;
+    padding: 10px 0;
+}
+
+.save-date-text.date {
+    font-size: 22px;
+}
+
+.canyon {
+    width: 50%;
+    padding: 40px 0;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .save-date-text {
+        font-size: 22px;
+    }
+    .save-date-text.date {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (min-width: 960px) {
+    .save-date-container {
+        height: 100vh;
+    }
+}
