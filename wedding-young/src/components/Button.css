@@ -1,0 +1,36 @@
+ .btn {
+     padding: 8px 20px;
+     border-radius: 4px;
+     outline: none;
+     border: none;
+     white-space: nowrap;
+     cursor: pointer;
+ }
+
+ .btn--primary {
+     background-color: var(--primary);
+     color: var(--black);
+ }
+
+
+ .btn--mobile {
+     text-align: center;
+     width: 80%;
+     font-size: 24px;
+     background-color: transparent;
+     padding: 14px 20px;
+     border: 1px solid var(--primary);
+ }
+
+ .btn--wide {
+     padding: 12px 64px;
+     font-size: 20px;
+ }
+
+ .btn--large:hover,
+ .btn--medium:hover,
+ .btn--mobile:hover {
+     transition: all 0.3s ease-out;
+     background-color: var(--primary);
+     color: var(--black);
+ }
