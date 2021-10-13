@@ -9,6 +9,7 @@ const HeroSection = () => {
         <>
             <section className="hero-container">
                 <img className="heroImage" src={CouplePortrait} alt="Kate and Campbell"/>
+                <div className="bottom-mask"></div>
             </section>
         </>
     )
