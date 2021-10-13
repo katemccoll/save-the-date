@@ -9,11 +9,6 @@
 
 }
 
-.navbar.active {
-    transition: all 0.5s ease;
-    background-color: var(--primary);
-}
-
 .nav-title {
     font-family: var(--great-vibes);
     padding-left: 20px;
@@ -23,7 +18,7 @@
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .menu-icon {
@@ -38,7 +33,7 @@
     flex-direction: column;
     position: fixed;
     height: 100vh;
-    top: 80px;
+    top: 0;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -90,6 +85,7 @@
         display: flex;
         align-items: center;
         height: 80px;
+        justify-content: center;
     }
     .nav-menu {
         display: grid;

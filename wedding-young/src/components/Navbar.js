@@ -24,9 +24,8 @@ const Navbar = () => {
 
     return (
         <>
-            <div className={click ? 'navbar active' : 'navbar'}>
+            <div className="navbar">
                 <div className="navbar-container">
-                    <h1 className="nav-title">Kate and Campbell</h1>
                     <div className="menu-icon" onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
                     </div>
@@ -35,7 +34,7 @@ const Navbar = () => {
                             <Link to='/'
                                   className="nav-link"
                                   onClick={closeMobileMenu}>
-                                Welcome
+                                Home
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -43,6 +42,13 @@ const Navbar = () => {
                                   className="nav-link"
                                   onClick={closeMobileMenu}>
                                 Details
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/getting-there'
+                                  className="nav-link"
+                                  onClick={closeMobileMenu}>
+                                Getting There
                             </Link>
                         </li>
                         <li className="nav-btn">
