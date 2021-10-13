@@ -1,15 +1,25 @@
 import React from "react";
 
 import "./HeroSection.css";
-import CouplePortrait from "./images/IMG_7805.jpg";
+
 
 const HeroSection = () => {
 
     return (
         <>
             <section className="hero-container">
-                <img className="heroImage" src={CouplePortrait} alt="Kate and Campbell"/>
-                <div className="bottom-mask"></div>
+                <div className="hero-image"></div>
+                <div className="hero-content">
+                    <div className="hero-name">
+                        <h1>
+                            Kate & Campbell
+                        </h1>
+                    </div>
+
+                    <div>
+                        <p id="hero-detail">November 5th, 2022 | The Canyon</p>
+                    </div>
+                </div>
             </section>
         </>
     )

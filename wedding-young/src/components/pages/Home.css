@@ -4,7 +4,6 @@
     .home-wrapper {
         min-height: 100vh;
         overflow: hidden;
-        display: flex;
     }
 
     .home-hero {
