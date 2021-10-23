@@ -3,6 +3,9 @@ import "./Home.css";
 import HeroSection from "../HeroSection";
 import SaveTheDate from "../SaveTheDate";
 import CountdownClock from "../CountdownClock";
+import Gallery from "../Gallery";
+import GettingThere from "../GettingThere";
+import Registry from "../Registry";
 
 
 const Home = () => {
@@ -10,10 +13,11 @@ const Home = () => {
         <>
             <div className='home-wrapper'>
                     <HeroSection />
-                <div className="home-container">
                     <SaveTheDate />
+                    <Gallery />
+                    <GettingThere />
+                    <Registry />
                     <CountdownClock />
-                </div>
 
             </div>
 

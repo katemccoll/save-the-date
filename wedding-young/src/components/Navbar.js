@@ -8,6 +8,7 @@ import './Navbar.css';
 const Navbar = () => {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
+    const [navbar, setNavbar] = useState(false);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
@@ -20,11 +21,20 @@ const Navbar = () => {
         }
     }
 
+    const showBackground = () => {
+        if (window.scrollY <= 750) {
+            setNavbar(false)
+        } else {
+            setNavbar(true)
+        }
+    }
+
     window.addEventListener('resize', showButton);
+    window.addEventListener('scroll', showBackground);
 
     return (
         <>
-            <div className="navbar">
+            <div className={navbar ? "navbar active" : "navbar"}>
                 <div className="navbar-container">
                     <div className="menu-icon" onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}

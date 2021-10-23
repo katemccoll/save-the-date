@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import "./CountdownClock.css";
 
-import flowersGold from "./images/gold-flowers.png";
+// import flowersGold from "./images/gold-flowers.png";
 
 const CountdownClock = () => {
     const [days, setDays] = useState(0);
@@ -44,7 +44,6 @@ const CountdownClock = () => {
 
     return (
         <div className="countdown-wrapper">
-            <img className="flowers top" src={flowersGold} alt="flowers"/>
             {weddingTime ? (
                 <h1>We got married!</h1>
             ) :(
@@ -76,7 +75,7 @@ const CountdownClock = () => {
 
                 </div>
             )}
-            <img className="flowers" src={flowersGold} alt="flowers"/>
+            <div className="flowers" />
 
         </div>
     )

@@ -1,5 +1,9 @@
 .countdown-wrapper {
     background-color: var(--dark-olive);
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .countdown-container {
@@ -21,9 +25,15 @@
 }
 
 .flowers {
-    object-position: bottom;
-    object-fit: cover;
+    /*object-position: bottom;*/
+    /*object-fit: cover;*/
+    background-image: url("./images/gold-flowers.png");
     width: 100%;
+    height: 50%;
+    bottom: 0;
+    background-size: contain;
+    position: absolute;
+    background-repeat-x: repeat;
 }
 
 .flowers.top {
