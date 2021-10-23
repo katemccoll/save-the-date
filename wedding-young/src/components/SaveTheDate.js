@@ -8,32 +8,39 @@ import flowers from './images/green-flowers.png';
 const SaveTheDate = () => {
     return (
         <>
-            <div className="save-date-container">
-                <img className="canyon" src={canyon} alt="The Canyon"/>
-                <div className="save-date">
-                    <p className="save-date-text">SAVE THE DATE</p>
-                    <div className="save-date-names">
-                        <h1>
-                            Kate McColl
-                        </h1>
-                        <h1>
-                            &
-                        </h1>
-                        <h1>
-                            Campbell Young
-                        </h1>
+            <div className="detail-container">
+                <div className="detail-content">
+                    <h1>The Wedding</h1>
+                    <div className="detail-text">
+                        <div className="detail-when">
+                            <h2>
+                                When?
+                            </h2>
+                            <p>
+                                Ceremony begins at 3pm
+                            </p>
+                            <p>
+                                November 5th, 2022
+                            </p>
+
+                        </div>
+                        <div className="detail-where">
+                            <h2>
+                                Where?
+                            </h2>
+                            <p>
+                                The Canyon at Tarra Vineyard
+                            </p>
+                            <p>
+                                Bendigo, Cromwell, Central Otago
+                            </p>
+
+                        </div>
                     </div>
 
-                    <p className="save-date-text date">
-                        05 . 11 . 2022
-                    </p>
-                    <p className="save-date-text">
-                        The Canyon at Tarra Vineyard
-                    </p>
-
-                    <p className="save-date-text">Bendigo, Cromwell, Central Otago</p>
 
                 </div>
+                {/*<img className="canyon" src={canyon} alt="The Canyon"/>*/}
 
             </div>
         </>
