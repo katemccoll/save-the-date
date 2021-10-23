@@ -1,0 +1,18 @@
+.registry-container {
+    padding: 40px;
+    text-align: center;
+    background-color: var(--light-gold);
+}
+
+.registry-title {
+    font-family: var(--great-vibes);
+    width: 480px;
+    margin: auto;
+}
+
+.registry-content {
+    line-height: 30px;
+    padding-top: 20px;
+    width: 480px;
+    margin: auto;
+}
