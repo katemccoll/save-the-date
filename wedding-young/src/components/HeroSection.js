@@ -1,5 +1,5 @@
 import React from "react";
-
+import { FaAngleDown } from 'react-icons/fa';
 import "./HeroSection.css";
 
 
@@ -7,7 +7,7 @@ const HeroSection = () => {
 
     return (
         <>
-            <section className="hero-container">
+            <section id="home" className="hero-container">
                 <div className="hero-image"></div>
                 <div className="hero-content">
                     <div className="hero-name">
@@ -17,8 +17,11 @@ const HeroSection = () => {
                     </div>
 
                     <div>
-                        <p id="hero-detail">November 5th, 2022 | The Canyon</p>
+                        <p id="hero-detail">Are getting married</p>
                     </div>
+                </div>
+                <div className="scroll">
+                    <FaAngleDown />
                 </div>
             </section>
         </>
