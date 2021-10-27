@@ -16,9 +16,7 @@ const Home = () => {
                     <SaveTheDate />
                     <Gallery />
                     <GettingThere />
-                    <Registry />
                     <CountdownClock />
-
             </div>
 
         </>
