@@ -11,7 +11,7 @@ const SaveTheDate = () => {
 
     return (
         <>
-            <div id='details' className="detail-container">
+            <div id='save-the-date' className="detail-container">
                 <div className="detail-content">
                     <h1>Save the date</h1>
                     <div className="detail-text">

@@ -40,13 +40,13 @@ const Navbar = () => {
                             </Scroll>
                         </li>
                         <li className="nav-item">
-                            <Scroll to='details'
+                            <Scroll to='save-the-date'
                                   spy={true}
                                   smooth={true}
                                   duration={500}
                                   className="nav-link"
                                   onClick={closeMobileMenu}>
-                                Details
+                                Save The Date
                             </Scroll>
                         </li>
                         <li className="nav-item">
