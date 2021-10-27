@@ -1,23 +1,27 @@
 import React from "react";
 import "./SaveTheDate.css";
+import { FaRegCalendar, FaMountain } from 'react-icons/fa';
 
 import canyon from './images/canyon.png';
 import flowers from './images/green-flowers.png';
 
 
 const SaveTheDate = () => {
+    let iconStyle = { fontSize: '24px' };
+
     return (
         <>
-            <div className="detail-container">
+            <div id='details' className="detail-container">
                 <div className="detail-content">
-                    <h1>The Wedding</h1>
+                    <h1>Save the date</h1>
                     <div className="detail-text">
                         <div className="detail-when">
+                            <FaRegCalendar style={iconStyle}/>
                             <h2>
                                 When?
                             </h2>
                             <p>
-                                Ceremony begins at 3pm
+                                Saturday at 3pm
                             </p>
                             <p>
                                 November 5th, 2022
@@ -25,6 +29,7 @@ const SaveTheDate = () => {
 
                         </div>
                         <div className="detail-where">
+                            <FaMountain style={iconStyle} />
                             <h2>
                                 Where?
                             </h2>

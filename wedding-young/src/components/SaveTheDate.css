@@ -25,6 +25,7 @@
     width: 50%;
     padding: 0 10px;
     line-height: 30px;
+
 }
 
 .detail-when {
@@ -44,6 +45,21 @@
     width: 100%;
 }
 
+.detail-content p {
+    font-size: 12px;
+}
+
+@media screen and (min-width: 425px) {
+    .detail-content p {
+        font-size: 16px;
+    }
+
+    .detail-when,
+    .detail-where {
+        line-height: 50px;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
 
@@ -53,11 +69,30 @@
     .save-date-text.date {
         font-size: 24px;
     }
+    .detail-text {
+        width: 768px;
+        margin: auto;
+    }
+
+    .detail-content h1 {
+        font-size: 40px;
+        padding: 20px;
+    }
 
 }
 
 @media screen and (min-width: 960px) {
     .save-date-container {
         height: 100vh;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .detail-content h1 {
+        font-size: 60px;
+    }
+    .detail-when,
+    .detail-where {
+        font-size: 36px;
     }
 }
