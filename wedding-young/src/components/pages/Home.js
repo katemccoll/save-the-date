@@ -4,7 +4,7 @@ import HeroSection from "../HeroSection";
 import SaveTheDate from "../SaveTheDate";
 import CountdownClock from "../CountdownClock";
 import Gallery from "../Gallery";
-import GettingThere from "../GettingThere";
+import Information from "../Information";
 import Registry from "../Registry";
 
 
@@ -15,7 +15,7 @@ const Home = () => {
                     <HeroSection />
                     <SaveTheDate />
                     <Gallery />
-                    <GettingThere />
+                    <Information />
                     <CountdownClock />
             </div>
 
