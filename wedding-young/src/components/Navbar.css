@@ -32,6 +32,7 @@
     color: var(--dark-olive);
 }
 
+
 .nav-menu {
     display: flex;
     flex-direction: column;
@@ -51,7 +52,7 @@
 
 .nav-menu.active {
     display: flex;
-    background-color: white;
+    background-color: var(--light-gold);
     left: 0;
 }
 
@@ -68,9 +69,11 @@
     padding: 20px;
     align-self: center;
     color: var(--dark-olive);
+    border-bottom: 2px solid transparent;
 }
+
  .nav-link:hover {
-     color: var(--rose-gold);
+     border-bottom: 2px solid var(--dark-olive);
      transition: all 0.5s ease;
  }
 
@@ -92,17 +95,15 @@
         justify-content: center;
     }
     .nav-menu {
-        display: grid;
-        grid-template-columns: repeat(4, auto);
-        grid-gap: 10px;
         list-style: none;
         text-align: center;
-        justify-content: end;
         margin-right: 2rem;
         position: sticky;
         height: 100%;
         flex-direction: row;
-        width: auto;
+        justify-content: space-evenly;
+        font-size: 24px;
+        width: 60%;
     }
 
     .nav-item,

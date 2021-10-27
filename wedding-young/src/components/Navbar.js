@@ -1,25 +1,15 @@
 import React, {useState} from 'react';
-import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { Button } from "./Button";
+import { Link as Scroll} from 'react-scroll';
 
 import './Navbar.css';
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
     const [navbar, setNavbar] = useState(false);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
-
-    const showButton = () => {
-        if (window.innerWidth <= 960) {
-            setButton(false)
-        } else {
-            setButton(true)
-        }
-    }
 
     const showBackground = () => {
         if (window.scrollY <= 750) {
@@ -29,7 +19,6 @@ const Navbar = () => {
         }
     }
 
-    window.addEventListener('resize', showButton);
     window.addEventListener('scroll', showBackground);
 
     return (
@@ -41,40 +30,34 @@ const Navbar = () => {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className="nav-item">
-                            <Link to='/'
+                            <Scroll to='home'
+                                    spy={true}
+                                    smooth={true}
+                                    duration={500}
                                   className="nav-link"
-                                  onClick={closeMobileMenu}>
+                                    onClick={closeMobileMenu}>
                                 Home
-                            </Link>
+                            </Scroll>
                         </li>
                         <li className="nav-item">
-                            <Link to='/details'
+                            <Scroll to='details'
+                                  spy={true}
+                                  smooth={true}
+                                  duration={500}
                                   className="nav-link"
                                   onClick={closeMobileMenu}>
                                 Details
-                            </Link>
+                            </Scroll>
                         </li>
                         <li className="nav-item">
-                            <Link to='/getting-there'
+                            <Scroll to='getting-there'
+                                    spy={true}
+                                    smooth={true}
+                                    duration={500}
                                   className="nav-link"
                                   onClick={closeMobileMenu}>
                                 Getting There
-                            </Link>
-                        </li>
-                        <li className="nav-btn">
-                            {button ? (
-                                <Link to='/rsvp' className="nav-link">
-                                    <Button buttonStyle='btn--outline'>RSVP</Button>
-                                </Link>
-                            ) : (
-                                <Link to='/rsvp' className="btn-link">
-                                    <Button
-                                        buttonStyle='btn--outline'
-                                        buttonSize='btn--mobile'
-                                    >RSVP</Button>
-                                </Link>
-                            )}
-
+                            </Scroll>
                         </li>
                     </ul>
                 </div>
