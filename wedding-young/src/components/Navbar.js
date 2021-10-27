@@ -50,13 +50,13 @@ const Navbar = () => {
                             </Scroll>
                         </li>
                         <li className="nav-item">
-                            <Scroll to='getting-there'
+                            <Scroll to='information'
                                     spy={true}
                                     smooth={true}
                                     duration={500}
                                   className="nav-link"
                                   onClick={closeMobileMenu}>
-                                Getting There
+                                information
                             </Scroll>
                         </li>
                     </ul>

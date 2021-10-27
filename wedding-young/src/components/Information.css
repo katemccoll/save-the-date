@@ -1,4 +1,4 @@
-.getting-there-container {
+.information-container {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -6,7 +6,7 @@
     background-color: var(--light-gold);
 }
 
-.getting-there-image {
+.information-image {
     background-image: url("./images/the-canyon.jpg");
     position: absolute;
     width: 100%;
@@ -16,30 +16,45 @@
     opacity: 0.4;
 }
 
-.getting-there-title {
+.information-title {
     font-family: var(--great-vibes);
     color: var(--dark-olive);
     z-index: 2;
     padding-top: 40px;
-    width: 480px;
     margin: auto;
 }
 
-.getting-there-wrapper {
+.information-wrapper {
     z-index: 2;
-    padding: 0 40px;
-    width: 480px;
     margin: auto;
 }
 
-.getting-there-content {
+.information-content {
     padding: 20px;
     width: 80%;
     margin: auto;
 
 }
 
-.getting-there-btn {
+.information-btn {
     display: flex;
     justify-content: space-evenly;
+}
+
+@media screen and (min-width: 768px) {
+    .information-title {
+        font-family: var(--great-vibes);
+        color: var(--dark-olive);
+        z-index: 2;
+        padding-top: 40px;
+        width: 480px;
+        margin: auto;
+    }
+
+    .information-wrapper {
+        z-index: 2;
+        padding: 0 40px;
+        width: 480px;
+        margin: auto;
+    }
 }
