@@ -1,9 +1,10 @@
 .countdown-wrapper {
     background-color: var(--dark-olive);
-    height: 30vh;
+    height: 25vh;
     display: flex;
     flex-direction: column;
     position: relative;
+    padding-top: 40px;
 }
 
 .countdown-container {
@@ -25,17 +26,24 @@
 }
 
 .flowers {
-    /*object-position: bottom;*/
-    /*object-fit: cover;*/
     background-image: url("./images/gold-flowers.png");
     width: 100%;
     height: 50%;
     bottom: 0;
     background-size: contain;
     position: absolute;
-    background-repeat-x: repeat;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .flowers.top {
     transform: rotate(180deg);
+}
+
+@media screen and (min-width: 425px) {
+    .flowers {
+        height: 40%;
+        background-repeat: repeat;
+        background-position: left;
+    }
 }
