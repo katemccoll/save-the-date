@@ -21,7 +21,7 @@ const SaveTheDate = () => {
                                 When?
                             </h2>
                             <p>
-                                Saturday at 3pm
+                                Saturday 3pm
                             </p>
                             <p>
                                 November 5th, 2022
@@ -34,7 +34,7 @@ const SaveTheDate = () => {
                                 Where?
                             </h2>
                             <p>
-                                The Canyon at Tarra Vineyard
+                                The Canyon at Tarras Vineyard
                             </p>
                             <p>
                                 Bendigo, Cromwell, Central Otago
