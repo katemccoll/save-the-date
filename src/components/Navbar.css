@@ -99,7 +99,7 @@
     .nav-menu {
         list-style: none;
         text-align: center;
-        margin-right: 2rem;
+
         position: sticky;
         height: 100%;
         flex-direction: row;
@@ -112,7 +112,7 @@
     .nav-btn {
         display: flex;
         padding: 0;
-        width: auto;
+        width: 145px;
     }
 
     .nav-links {
