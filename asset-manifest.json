@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d23bc58.chunk.css",
+    "main.css": "/static/css/main.e7f99387.chunk.css",
     "main.js": "/static/js/main.d12770b3.chunk.js",
     "main.js.map": "/static/js/main.d12770b3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.156280cf.js",
@@ -8,7 +8,7 @@
     "static/js/2.b88bf1fe.chunk.js": "/static/js/2.b88bf1fe.chunk.js",
     "static/js/2.b88bf1fe.chunk.js.map": "/static/js/2.b88bf1fe.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.2d23bc58.chunk.css.map": "/static/css/main.2d23bc58.chunk.css.map",
+    "static/css/main.e7f99387.chunk.css.map": "/static/css/main.e7f99387.chunk.css.map",
     "static/js/2.b88bf1fe.chunk.js.LICENSE.txt": "/static/js/2.b88bf1fe.chunk.js.LICENSE.txt",
     "static/media/HeroSection.css": "/static/media/IMG_7805.a583a62d.jpg",
     "static/media/canyon.d13f9670.png": "/static/media/canyon.d13f9670.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.156280cf.js",
     "static/js/2.b88bf1fe.chunk.js",
-    "static/css/main.2d23bc58.chunk.css",
+    "static/css/main.e7f99387.chunk.css",
     "static/js/main.d12770b3.chunk.js"
   ]
 }
